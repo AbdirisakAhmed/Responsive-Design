@@ -112,11 +112,6 @@ section p{
     
 
 }
-nav :hover{
-    color: Red;
-
-}
-
 
 #contents{
     
@@ -178,7 +173,7 @@ address{
     font-style: normal;
 }
 footer{
-    background-color:rgb(95, 64, 7);
+    background-color:rgb(173, 141, 82);
     text-align: center;
     font-size: 1rem;
 
@@ -189,17 +184,12 @@ footer{
     body h1{
         text-align: left;
     }
-    
-    header{
+    nav{
         flex-direction: row;
-        display:flex;
-      justify-content: space-between;
-        background-color: rgb(241, 200, 86);
+        justify-content: space-around;
     }
         nav a{
-            
             border: 0;
-            
         }
        .taste h1{
            font-size: 3rem;
