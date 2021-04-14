@@ -184,10 +184,13 @@ footer{
     body h1{
         text-align: left;
     }
-    nav{
+    nav ul{
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
+        
     }
+    
         nav a{
             border: 0;
         }
